@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open example.html",
+            "file": "c:\\Users\\ali07\\OneDrive\\Desktop\\Ali\\Semister 2\\Web Development - Fundamental\\week1\\example.html"
+        }
+    ]
+}
