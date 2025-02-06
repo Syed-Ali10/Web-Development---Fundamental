@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <!--- 
+    Name = Syed Ali Sajjad Naqvi
+    Date = 2025 - 02 - 04
+    Description = This project is about creating a table of the planets data with there stuff such as distance, name , mass , diameter etc.
+    It will help in learning on how to create table with different style and sizes.
+    -->
     <title>Planets Data</title>
     <link href="minimal-table.css" rel="stylesheet" type="text/css">
   </head>
@@ -10,26 +16,27 @@
     <h1>Planets Data</h1>
     <table>
         <caption>
-            Data about the planets of our solar system  ( Planetary facts taken from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/"> title="Nasa's Planetary Fact Sheet - Metric")</a>
+          Data about the planets of our solar system  ( Planetary facts taken from <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/"> title="Nasa's Planetary Fact Sheet - Metric")</a>
        </caption>
        <thead>
         <tr>
-            
-          <td colspan="2"></td>
-            <th>Name</th>
-            <th>Mass (10<sup>24</sup>kg)</th>
-            <th>Diameter (km)</th>
-            <th>Density (kg/ms<sup>3</sup>)</th>
-            <th>Gravity (m/s<sup>2</sup>)</th>
-            <th>Length of day (hours)</th>
-            <th>Distance from Sun (10<sup>6</sup>km)</th>
-            <th>Mean temperature &deg;C</th>
-            <th>Number of moons</th>
-            <th>Notes</th>
+          <th colspan="2"></th>
+          <th>Name</th>
+          <th>Mass (10<sup>24</sup>kg)</th>
+          <th>Diameter (km)</th>
+          <th>Density (kg/ms<sup>3</sup>)</th>
+          <th>Gravity (m/s<sup>2</sup>)</th>
+          <th>Length of day (hours)</th>
+          <th>Distance from Sun (10<sup>6</sup>km)</th>
+          <th>Mean temperature &deg;C</th>
+          <th>Number of moons</th>
+          <th>Notes</th>
         </tr>
+       </thead>
 
+       <tbody>
         <tr>
-          <td rowspan="4" colspan="2" scope = "rowgroup"> Terrestrial planets</td> 
+          <td rowspan="4" colspan="2"> Terrestrial planets</td> 
           <th>Mercury</th>
           <td>0.330</td>
           <td>4,879</td>
@@ -41,6 +48,7 @@
           <td>0</td>
           <td>Closest to the Sun</td>
         </tr>
+
 
         <tr>
           <th>Venus</th>
@@ -55,6 +63,7 @@
           <td></td>
         </tr>
 
+      
         <tr>
           <th>Earth</th>
           <td>5.97</td>
@@ -67,6 +76,7 @@
           <td>1</td>
           <td>Our world</td>
         </tr>
+
 
         <tr>
           <th>Mars</th>
@@ -81,10 +91,11 @@
           <td>The red planet</td>
         </tr>
 
+
         <tr>
-          <th rowspan="4" scope="rowgroup"> Jovian Planets</th>
-          <th rowspan="4" scope="rowgroup"> Gas giants</th>
-          <th scope="row"> Jupiter</th>
+          <th rowspan="4"> Jovian Planets</th>
+          <th rowspan="4"> Gas giants</th>
+          <th>Jupiter</th>
           <td>1898</td>
           <td>142,984</td>
           <td>1326</td>
@@ -96,8 +107,9 @@
           <td>The largest planet</td>
       </tr>
 
+
       <tr>
-        <th scope="row">Saturn</th>
+        <th >Saturn</th>
         <td>568</td>
         <td>120,536</td>
         <td>687</td>
@@ -109,9 +121,10 @@
         <td></td>
       </tr>
 
-      <tr>
-        <th rowspan="2" scope="rowgroup"> Ice giants</th>
-        <th scope="row"> Uranus</th>
+
+      <tr> 
+        <th rowspan="2"> Ice giants</th>
+        <th>Uranus</th>
         <td>86.8</td>
         <td>51,118</td>
         <td>1271</td>
@@ -122,9 +135,10 @@
         <td>27</td>
         <td></td>
       </tr>
-
+      
+      
       <tr>
-        <th scope="row">Neptune</th>
+        <th>Neptune</th>
           <td>102</td>
           <td>49,528</td>
           <td>1638</td>
@@ -135,10 +149,11 @@
           <td>14</td>
           <td></td>
       </tr>
+    
 
       <tr>
-        <th colspan="2" scope="row">Dwarf planets</th>
-        <th scope="row">Pluto</th>
+        <th colspan="2">Dwarf planets</th>
+        <th>Pluto</th>
         <td>0.0146</td>
         <td>2,370</td>
         <td>2095</td>
@@ -149,10 +164,8 @@
         <td>5</td>
         <td>Declassified as a planet in 2006, but this <a href="https://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains contoversial</a>.</td>
       </tr>
-
-       </thead>
+       </tbody>
     </table>
-
   </body>
 </html>
 
