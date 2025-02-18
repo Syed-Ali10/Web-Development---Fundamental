@@ -24,7 +24,15 @@ html {
 
     border: 1px solid #cc4a37;
 
+    background-image: linear-gradient(
+        to bottom right,
+        rgba(0,0,0,0)
+        rgba(0,0,0,0.2) 30%,
+        rgba(0,0,0,0.2)
+    );
     
+
+
 
 
 
