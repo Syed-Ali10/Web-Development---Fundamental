@@ -128,3 +128,41 @@ li {
     line-height: 1.6;
 }
 
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #a66;
+    border: 1px solid #a66;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #a66;
+    color: #fff;
+}
+
+header, section, aside, nav, footer {
+    padding: 20px;
+}
+
+section, aside, nav {
+    margin-bottom: 20px;
+}
