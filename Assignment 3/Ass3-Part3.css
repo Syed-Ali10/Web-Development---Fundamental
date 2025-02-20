@@ -97,3 +97,34 @@ section p:first-of-type {
     text-indent: 20px;
 }
 
+a {
+    color: #a66;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4a2c2a;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+a:active {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+a[href^="http"]::after {
+    content: url('path/to/external-link-icon.png');
+    margin-left: 5px;
+}
+
+ul, ol {
+    margin: 1.6rem 0;
+}
+
+li {
+    line-height: 1.6;
+}
+
