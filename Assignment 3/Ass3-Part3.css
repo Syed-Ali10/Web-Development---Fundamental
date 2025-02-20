@@ -88,3 +88,12 @@ h2 {
     letter-spacing: 1px;
 }
 
+p {
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+section p:first-of-type {
+    text-indent: 20px;
+}
+
