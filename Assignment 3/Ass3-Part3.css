@@ -49,3 +49,26 @@ Date : 2025--02-20
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  /* Fonts */
+@font-face {
+    font-family: 'Merriweather';
+    src: url('path/to/merriweather.woff2') format('woff2'),
+         url('path/to/merriweather.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('path/to/roboto.woff2') format('woff2'),
+         url('path/to/roboto.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 10px;
+    line-height: 1.6;
+}
