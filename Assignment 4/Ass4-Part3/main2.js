@@ -1,3 +1,7 @@
+// Name : Syed Ali Sajjad Naqvi
+// Date : 2025-04-03
+// Description: Used to create the java class for bouncing balls.
+
 // setup canvas
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
