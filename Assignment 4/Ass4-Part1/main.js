@@ -1,4 +1,12 @@
 
+// Name: Syed Ali Sajjad Naqvi
+// Date: 2025-04-04
+// Description: This code is about silly story generating for any name it will create a silly story.
+
+
+
+
+
 // Defining the functions and the variables
 const customName = document.getElementById('customname')
 const randomize = document.querySelector('.randomize')
