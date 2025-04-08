@@ -273,3 +273,18 @@ audio {
 .comment-container li p:nth-child(2) {
   flex: 5;
 }
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #1a5e20;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 0;
+}
