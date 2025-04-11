@@ -17,6 +17,7 @@ body {
   color: darkgreen;
   background-color: white;
   line-height: 1.6;
+  font-size: 1.6rem;
    
 }
 
@@ -38,29 +39,37 @@ font[size="7"] {
   color: white;
   text-shadow: 2px 2px 10px rgb(0,0,0,0,0.5);
   background-color: darkgreen;
+  margin: 0%;
+  padding: 1rem;
 
 }
 
 font[size="6"] {
   font-size: 3rem;
   text-align: center;
+  margin: 2rem 0 1rem;
 }
 
 font[size="5"] {
   font-size: 2.2rem;
+  margin: 1.5rem 0 1rem;
 }
 
 p, li, table {
   font-size: 1.6rem;
   line-height: 1.5;
+  margin: 1rem 0;
 }
 
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
+  height: auto;
   background-color: lightgreen;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  display: flex;
+  flex-wrap: wrap;
 
 }
 
